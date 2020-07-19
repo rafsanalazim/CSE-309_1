@@ -1,0 +1,125 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	overflow: hidden;
+	text-align: center;
+	background-color: black;
+	opacity: 0.9;
+	color: #ffffff;
+}
+#title{
+
+}
+.banner{
+	overflow: hidden;
+	background-image: url(..//images/alone-buildings-city-cityscape-220444.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;
+}
+.intro {
+	color: #ffffff;
+	margin: 135px 500px;
+}
+.banner h2{
+	color: #ffffff;
+	text-align: center;
+	font-size: 36px;
+}
+.intro h3{
+	letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0px;
+    color: #dfe6e9;
+}
+.intro h1{
+	letter-spacing: 10px;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 10px 0;
+}
+.intro ul{
+	list-style-type:square;
+	padding-left: 22px;
+}
+.intro ul li{
+	padding: 8px 0;
+	color: #dfe6e9;
+}
+
+/*about start*/
+.about{
+	overflow: hidden;
+	background-color: #f7f1e3;
+}
+.about h2{
+	color: black;
+    text-align: center;
+    font-size: 36px;
+    display: block;
+}
+.about p{
+	width: 24%;
+    font-size: 20px;
+    display: inline-block;
+    margin: 110px 341px;
+    line-height: 2;
+}
+.about img{
+	width: 30%;
+    float: right;
+    padding: 60px 96px;
+}
+/*contact starts*/
+.contact{
+	overflow: hidden;
+	height: auto;
+	background-color: #2d3436;
+}
+.contact h2{
+	color: #ffffff;
+	text-align: center;
+}
+.contact ul{
+	list-style: none;
+	width: 15%;
+	margin: auto;
+	padding: 15px 0;
+}
+.contact ul li{
+	    margin: 20px 0;
+}
+.contact ul li img{
+	text-align: center;
+	display: inline-block;
+
+}
+.contact ul li a{
+	float: right;
+	/*text-decoration: none;*/
+	color: white;
+	display: inline-block;
+}
+/*quote*/
+.quote{
+	background-image: url(..//images/brown-bricked-wall-132192.jpg);
+	overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 250px;
+}
+#quote{
+	font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 70px;
+    box-shadow: 6px 3px 5px 0px #0000006b;
+    padding: 20px 0;
+}
